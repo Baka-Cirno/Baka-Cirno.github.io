@@ -1,5 +1,4 @@
 site_name: 'Touhou MCbattle 符卡数据'
-site_url: https://Baka-cirno.github.io/mkdocs/
 site_description: 'MkDocs theme focused on navigation and usability.'
 site_author: 'Dmitry S'
 
@@ -8,13 +7,10 @@ repo_url: https://github.com/gristlabs/mkdocs-windmill
 theme:
   name: null
   locale: zh_CN
-  custom_dir: mkdocs_windmill
-  # Copy settings from mkdocs_theme.yml, which is ignored by custom_dir themes.
-  static_templates: [404.html]
-  search_index_only: true
-  include_search_page: true
+  name: mkdocs
 
-# This should be renamed to nav for mkdocs 1.0+
+
+
 nav:
 - 介绍: index.md
 - 主角组: 
@@ -23,7 +19,12 @@ nav:
 - 东方红魔乡: hmg.md
 - 东方妖妖梦: yym.md
 - 东方永夜抄: yyc.md
-
+- 东方妖妖梦: yym.md
+- 东方永夜抄: yyc.md
+- 东方妖妖梦: yym.md
+- 东方永夜抄: yyc.md
+- 东方妖妖梦: yym.md
+- 东方永夜抄: yyc.md
 
 markdown_extensions:
   - toc:
